@@ -76,7 +76,6 @@ class ContactController {
 
     response.json(contact);
   }
-  
 
   // Deletar um registro
   async delete(request, response) {
